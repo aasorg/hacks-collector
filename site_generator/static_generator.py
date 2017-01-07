@@ -8,11 +8,11 @@ import copy
 import shutil
 
 
-DATA_DIR_PATTERN = 'dotastro*'
+DATA_DIR_PATTERN = 'aas*'
 README_NAME = 'README.md'
 YAML_TEMPLATE = 'template.yml'
 EVENTS_FILE = 'site_generator/events.yml'
-LOGO_FILE = 'dotlogo_black.png'
+LOGO_FILE = 'AASlogo_black.png'
 
 OUTPUT_DIR = 'site_generator/html'
 
