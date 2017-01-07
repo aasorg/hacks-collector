@@ -1,7 +1,7 @@
 {% extends 'index.html'%}
 
 {% block heading %}
-<h1>.Astronomy {{header.id}}</h1>
+<h1>{{header.name}}</h1>
 <h3>{{header.date}}</h3>
 <p>{{header.venue}}</p>
 <p><strong>Organizers:</strong> {{header.loc}}</p>
@@ -9,7 +9,7 @@
 
 {% block main_content %}
 {% if not hacks %}
-<h2>Sadly there were no hacks at this .Astro</h2>
+<h2>Sadly there were no hacks at this event</h2>
 {% else %}
 <h2>Hack Day projects</h2>
 {% for data in hacks %}

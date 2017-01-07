@@ -39,10 +39,10 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" rel="home" href="http://dotastro.github.io/hacks-collector/" title="Hacks Collector home">
+      <a class="navbar-brand" rel="home" href="http://aasorg.github.io/hacks-collector/" title="Hacks Collector home">
          <img style="max-width:100px; margin-top: -7px;" src="dotlogo_black.png">
       </a>
-      <a class="navbar-brand" rel="home" href="http://dotastro.github.io/hacks-collector/" title="Hacks Collector home">Hacks Collector</a>
+      <a class="navbar-brand" rel="home" href="http://aasorg.github.io/hacks-collector/" title="Hacks Collector home">Hacks Collector</a>
     </div>
 
       <div class="collapse navbar-collapse">
@@ -53,7 +53,7 @@
         <ul class="dropdown-menu">
           {% for event in events %}
           {% for k, v in event.items() %}
-          <li><a href="{{k}}.html">.Astro {{v.id}}</a></li>
+          <li><a href="{{k}}.html">{{v.name}}</a></li>
           {% endfor %}
           {% endfor %}
         </ul>
@@ -66,10 +66,11 @@
 <div class="jumbotron">
   <div class="container">
       {% block heading %}
-      <img src="dotlogo_black.png" alt="dotastro logo" class="img-responsive"/>
-      <h1>.Astronomy Hacks Collector</h1>
 
-      <p>We have collected as many Hack Day projects from .Astronomy 2-8 that we could find. If you want to add your own project, follow the README instructions on <a href="https://github.com/dotastro/hack-list">Hack List GitHub repo</a>.</p>
+      <img src="{{biglogo}}" alt="aasorg logo" class="img-responsive"/>
+      <h1>AAS Hacks Collector</h1>
+
+      <p>We have collected as many Hack Day projects from AAS meetings that we could find. If you want to add your own project, follow the README instructions on <a href="https://github.com/aasorg/hack-list">Hack List GitHub repo</a>.</p>
       {% endblock %}
     </div>
   </div>
@@ -81,7 +82,7 @@
       <ul>
         {% for event in events%}
         {% for k, v in event.items() %}
-        <li><a href="{{ k }}.html">.Astronomy {{ v['id'] }}</a> - {{v.date}} - {{v.venue}}</li>
+        <li><a href="{{ k }}.html">{{v.name}}</a> - {{v.date}} - {{v.venue}}</li>
         {% endfor %}
         {% endfor %}
       </ul>
