@@ -12,7 +12,7 @@ DATA_DIR_PATTERN = 'aas*'
 README_NAME = 'README.md'
 YAML_TEMPLATE = 'template.yml'
 EVENTS_FILE = 'events.yml'
-LOGO_FILE = 'AASlogo_black.gif'
+LOGO_FILE = 'AASlogo_black.png'
 
 OUTPUT_DIR = 'site_generator/html'
 
