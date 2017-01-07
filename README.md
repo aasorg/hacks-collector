@@ -97,7 +97,7 @@ pull request.
 Make sure you give an appropriate commit message and then click on the big
 green "Propose new file" button.
 
-This will then set up a pull request for you and will let the .Astronomy team
+This will then set up a pull request for you and will let the AAS team
 know that you would like your hack added to this repo and then if everything
 is ok with your submitted .yml file and it passes our tests then we'll merge
 your changes.
@@ -109,7 +109,7 @@ Ta Da! Your hack is now archived for the joy of future generations!
 Whether you submit a hack via the web form or via GitHub, subsequent updates
 should be done via GitHub. Assuming that the hack entry you want to edit is
 inside the main [hacks-collector](http://github.com/aasorg/hacks-collector) repository,
-navigate to the folder for the relevant .Astronomy meeting, then click on the
+navigate to the folder for the relevant AAS meeting, then click on the
 file you want to edit. Once the contents of the file show, click on the pen
 icon in the upper right to edit the file:
 
