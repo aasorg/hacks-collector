@@ -13,7 +13,7 @@ OPTIONAL = ('source-url', 'live-url', 'doi', 'images',
 URLS = ('source-url', 'live-url')
 
 EVENTS_FILE = 'events.yml'
-EVENTS_REQUIRED = ('id','venue','date')
+EVENTS_REQUIRED = ('venue','date')
 
 status = 0
 
