@@ -1,0 +1,13 @@
+
+title: phot-party
+creators: 
+    - Meredith Rawls
+    - Geert Barentsen
+description: An aperture photometry walkthrough with astropy's photutils (complete) and the LSST Science Pipelines (not yet complete).
+source-url: http://github.com/mrawls/hackaas-lsst
+live-url: https://github.com/mrawls/hackaas-lsst/blob/master/phot-party.ipynb
+contact-email: meredith.rawls@gmail.com
+doi: 
+images: 
+orcid: 
+    - 
