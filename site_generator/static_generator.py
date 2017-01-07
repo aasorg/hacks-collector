@@ -48,7 +48,7 @@ def make_index():
     env = Environment(loader=TEMPLATE_LOADER)
     template = env.get_template('index.html')
     events = parse_events_yml()
-    output_from_parsed_template = template.render(events=events)
+    output_from_parsed_template = template.render(events=events, biglogo=LOGO_FILE)
     with open(os.path.join(OUTPUT_DIR, "index.html"), "w") as fh:
         print('Writing out', fh.name)
         fh.write(output_from_parsed_template)
