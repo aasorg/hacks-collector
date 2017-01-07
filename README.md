@@ -129,3 +129,12 @@ hack's source code by including the following markdown code:
     ![badge-img](https://img.shields.io/badge/Made%20at-%23hackaas-brightgreen.svg)
 
 ![badge-img](https://img.shields.io/badge/Made%20at-%23hackaas-brightgreen.svg)
+
+
+## Acknowledgements/Blame
+
+This is built off the [dotAstronomy hacks-collector](https://github.com/dotastro/hacks-collector),
+originally developed by @zemogle, @astrofrog, and @eteq.  It has the git
+history from the dotastro repo, so in principle updates from dotastro can be
+pulled directly into this repo.  But if that fails, you can blame @eteq, who
+did the porting from dotastro.
