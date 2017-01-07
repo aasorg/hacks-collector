@@ -12,7 +12,7 @@ DATA_DIR_PATTERN = 'aas*'
 README_NAME = 'README.md'
 YAML_TEMPLATE = 'template.yml'
 EVENTS_FILE = 'events.yml'
-LOGO_FILE = 'AASlogo_black.png'
+LOGO_FILE = 'AASlogo_black.gif'
 
 OUTPUT_DIR = 'site_generator/html'
 
@@ -92,6 +92,7 @@ def render_page_data(header, hacks_data, dirname):
     data['header'] = header
     data['event'] = dirname
     data['hacks'], fromimgs, toimgs = reprocess_image_names(hacks_data, dirname)
+    data['biglogo'] = LOGO_FILE
 
     output_from_parsed_template = template.render(**data )
     output_from_parsed_template.replace("–", " ")
