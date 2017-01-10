@@ -2,7 +2,7 @@
 title: AstroPy Performance Benchmarking
 creators: 
     - Geert Barentsen
-description: My hack compared the performance of AstroPy between different versions of Python (2.7 vs 3.x). Conclusion: use Python 3!
+description: "My hack compared the performance of AstroPy between different versions of Python (2.7 vs 3.x). Conclusion: use Python 3!"
 source-url: https://gist.github.com/barentsen/bd10e5ec13b97171c202e7e5747fa163
 live-url: https://twitter.com/GeertHub/status/817857735484198912
 contact-email: hello@geert.io
