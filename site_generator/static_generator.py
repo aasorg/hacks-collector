@@ -65,10 +65,11 @@ def make_index():
 def collect_data(folder_name, template_data):
     files = glob.glob(os.path.join(folder_name, "*.yml"))
     data = []
-    for yfile in files:
+    for i, yfile in enumerate(files, 1):
         stream = open(yfile, 'r')
         filedata = yaml.load(stream)
         cleaned_data = parse_yaml_style(filedata, template_data)
+        cleaned_data['title_anchor'] = 'titleanchor{}'.format(i)
         data.append(cleaned_data)
     return data
 
