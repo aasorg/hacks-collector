@@ -12,8 +12,14 @@
 <h2>Sadly there were no hacks at this event</h2>
 {% else %}
 <h2>Hack Day projects</h2>
+<ul>
 {% for data in hacks %}
-  <h3>{{data.title}}</h3>
+<li/><a href="#{{data['title_anchor']}}">{{data.title}}</a>
+{% endfor %}
+</ul>
+<hr />
+{% for data in hacks %}
+  <h3 id="{{data['title_anchor']}}">{{data.title}}</h3>
   <p>{{data.description}}</p>
   <h4>Creators</h4>
   <ul>
