@@ -19,7 +19,13 @@
 </ul>
 <hr />
 {% for data in hacks %}
-  <h3 id="{{data['title_anchor']}}">{{data.title}}</h3>
+
+  <!-- Extra line breaks to work around https://github.com/aasorg/hacks-collector/issues/17 -->
+  <div id="{{data['title_anchor']}}">
+  <br/><br/><br/>
+  </div>
+
+  <h3>{{data.title}}</h3>
   <p>{{data.description}}</p>
   <h4>Creators</h4>
   <ul>
