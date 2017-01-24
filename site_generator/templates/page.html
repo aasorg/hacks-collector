@@ -17,7 +17,7 @@
 <li/><a href="#{{data['title_anchor']}}">{{data.title}}</a>
 {% endfor %}
 </ul>
-<hr />
+
 {% for data in hacks %}
 
   <!-- Extra line breaks to work around https://github.com/aasorg/hacks-collector/issues/17 -->
@@ -25,6 +25,8 @@
   <br/><br/><br/>
   </div>
 
+  <hr />
+  
   <h3>{{data.title}}</h3>
   <p>{{data.description}}</p>
   <h4>Creators</h4>
@@ -51,7 +53,6 @@
 <img src="{{image}}" /><br/>
 {% endfor %}
 
-<hr />
 {% endfor%}
 {% endif %}
 {% endblock %}
