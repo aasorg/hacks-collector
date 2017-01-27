@@ -1,3 +1,5 @@
+<div id="top_of_page"></div>
+
 {% extends 'index.html'%}
 
 {% block heading %}
@@ -26,7 +28,7 @@
   </div>
 
   <hr />
-  
+
   <h3>{{data.title}}</h3>
   <p>{{data.description}}</p>
   <h4>Creators</h4>
@@ -52,6 +54,8 @@
 {% for image in data.images %}
 <img src="{{image}}" /><br/>
 {% endfor %}
+
+<a href="#top_of_page">[Back to top]</a>
 
 {% endfor%}
 {% endif %}
