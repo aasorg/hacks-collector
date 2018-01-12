@@ -11,7 +11,7 @@ To see a prettified web site listing these hacks, check out https://aasorg.githu
 ## Submitting a hack the easy way
 
 Go to [the hack submission web
-app](https://aas-hack-submitter.herokuapp.com) and enter the
+app](https://hackaas-submitter.herokuapp.com) and enter the
 relevant details. This will create a pull request from you automatically,
 which you can modify later if desired (see the section on [Updating a hack](#updating)).
 
