@@ -1,0 +1,13 @@
+
+title: My Awesome Hack
+creators: 
+    - Anne Onymous
+    - John Doe
+description: "This hack does a really cool thing"
+source-url: http://github.com/hacker1/hack1
+live-url: http://hack1.herokuapp.com
+contact-email: email@example.com
+doi: http://zenodo.org/1029812
+images: 
+orcid: 
+    - orcid.org/0000-0000-0000-0000
