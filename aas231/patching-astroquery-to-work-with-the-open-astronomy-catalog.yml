@@ -1,0 +1,12 @@
+
+title: Patching astroquery to work with the Open Astronomy Catalog
+creators: 
+    - Jeremy Lusk
+description: "This hack makes it possible to query data from the open astronomy catalog through the excellent astroquery package"
+source-url: https://github.com/JALusk/astroquery/tree/open_astronomy_cataloghttp://github.com/hacker1/hack1
+live-url: 
+contact-email: jeremy.lusk@gmail.com
+doi: 
+images: 
+orcid: 
+    - https://orcid.org/0000-0001-6843-1278
