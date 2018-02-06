@@ -1,0 +1,10 @@
+title: cubes-in-WWT 
+creators:
+    - Jonathan Fay
+    - Peter Teuben
+description: allow overlay and interaction with (for now radio) cubes on the WWT sky
+source-url: https://github.com/WorldWideTelescope/wwt-web-client
+live-url: http://www.worldwidetelescope.org/webclient
+doi: 
+images: cubes-in-wwt1.png cubes-in-wwt2.png
+
