@@ -17,7 +17,7 @@ which you can modify later if desired (see the section on [Updating a hack](#upd
 
 ## Submitting a hack via GitHub
 
-###Creating the file
+### Creating the file
 
 First navigate to the correct conference folder e.g.
 [aas229](https://github.com/aasorg/hacks-collector/tree/master/aas229),
