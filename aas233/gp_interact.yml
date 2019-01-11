@@ -1,0 +1,11 @@
+title: gp_interact
+creators:
+    - Brett Morris
+    - Jessica Birky
+    - Russell Van Linge
+description: A simple numpy-based introduction to Gaussian processes in Python
+source-url: https://github.com/bmorris3/gp_interact
+live-url: https://mybinder.org/v2/gh/bmorris3/gp_interact/master?filepath=gp_interact.ipynb
+orcid: 0000-0003-2528-3409
+contact-email: morrisbrettm@gmail.com
+contact-github: bmorris3
